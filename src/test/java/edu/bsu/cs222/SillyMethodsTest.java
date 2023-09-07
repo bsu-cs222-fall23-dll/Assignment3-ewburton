@@ -12,8 +12,8 @@ public class SillyMethodsTest {
     }
 
     @Test
-    public void testDidGuess17Incorrectly() {
-        boolean result = sillyMethods.didGuess17(17);
+    public void testDidGuess42Incorrectly() {
+        boolean result = sillyMethods.didGuess42(17);
         Assertions.assertFalse(result);
     }
 
